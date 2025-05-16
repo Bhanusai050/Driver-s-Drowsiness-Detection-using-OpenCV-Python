@@ -11,15 +11,13 @@
 👉 I made a python script that will give an alert to the driver when the driver is feeling drowsy
 
 
-## Demo Output Video
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=hsEUkFkJJy0
-" target="_blank"><img src="assets/youtube_thumbnail.png" alt="Driver's Drowsiness Detection" title="Click here to Watch output on Youtube" height=400px></a>
+
 
 ## 💡 Implementation of the Logic
 
 👉 Basically, I used the famous dlib library which can estimate the location of 68 coordinates (x, y) that map the facial points on a person’s face in real-time.<br>
-You can download the library from <a href="https://github.com/Nisarg1112/Driver-s-Drowsiness-Detection-using-OpenCV-Python/tree/main/shape_predictor_68_face_landmarks.dat">here.</a>
+
 
 **📸 Here is a Image to show 68 points on our face**
 
@@ -38,24 +36,12 @@ You can download the library from <a href="https://github.com/Nisarg1112/Driver-
 
 👉 I am thinking to deploy it on a raspberry pi that will have an alarm attached to it so it can be really helpful to someone
 
-## ⚡️ How to Use
-
-Just follow 4 simple steps:
-
-1. Clone repository to preserve directory structure<br>
-`git clone https://github.com/Nisarg1112/Driver-s-Drowsiness-Detection-using-OpenCV-Python.git`
-2. Go to your favorite code editor and open Command Prompt (cmd) amd go to directory where you cloned this repo
-3. Run this command in cmd<br>
-   `pip install -r requirements.txt`
-4. Run `face_eye_detection_for_drowsiness.py` and Enjoy😎!
    
 **Note**: Incase, if you want to just detect the 68 points on Human face then run `face_landmark.py` file and You are good to go!😎
 
 ## 🙋‍♂️ Helpdesk
 
 **If you face any problem like script not running in local environment or anything:** You can reach out to me at anytime on following platforms!
-<br>
-<br>
 
 
 ## ℹ References
