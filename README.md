@@ -23,9 +23,7 @@
 
 <img src="assets/68_landmark.jpeg" height=300px><br>
 
-**🎥 Here is a GIF to show 68 points on Real face**
 
-<img src="assets/68_points_gif.gif" height=300px><br>
 
 
 👉 Then, I am calculating Eye Aspect Ratio (EAR) of Left Eye and Right Eye using Euclidean Distance between 3 pairs of different coordinates of both the eyes as seen in 68 Points landmark's image!
